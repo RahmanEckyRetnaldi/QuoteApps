@@ -5,6 +5,11 @@ plugins {
 android {
     compileSdk 31
 
+    viewBinding {
+        enabled = true
+    }
+
+
     defaultConfig {
         applicationId "com.naky.quoteapps"
         minSdk 21
